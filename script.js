@@ -19,3 +19,25 @@ document.addEventListener('DOMContentLoaded', function () {
       observer.observe(el);
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('.item-button');
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', function () {
+      toggleContent(button);
+    });
+  });
+});
+
+function toggleContent(button) {
+  const content = button.nextElementSibling;
+  const icon = button.querySelector('.icon');
+
+  const isVisible = content.style.display === 'block';
+
+  content.style.display = isVisible ? 'none' : 'block';
+  icon.setAttribute('data-lucide', isVisible ? 'plus' : 'minus');
+  lucide.createIcons(); // Re-render icons
+}
+
+lucide.createIcons();
