@@ -61,7 +61,7 @@ h3 {
   color: var(--black);
   font-size: 48px;
   font-weight: 200;
-  line-height: 0.9;
+  line-height: 1.2;
 }
 
 h5 {
@@ -107,7 +107,7 @@ section {
   box-sizing: border-box;
   background-color: #bcb4a6;
   border-radius: 1rem;
-  background-image: url('assets/andrew-ly-TcC0OajPZSk-unsplash.jpg');
+  background-image: url('assets/andrew-ly-TcC0OajPZSk-unsplash.webp');
   background-size: cover;
   background-position: 0% 0%;
 }
@@ -517,17 +517,17 @@ section {
 }
 
 #image-01 {
-  background-image: url('assets/premium_photo-1677234146890-367070a1dffc.avif');
+  background-image: url('assets/karolina-grabowska-dJBUYxmOYzc-unsplash.webp');
   background-position: 40% 40%;
 }
 
 #image-02 {
-  background-image: url('assets/premium_photo-1681589433894-68917c2b8e1c.avif');
+  background-image: url('assets/mohamed-hamdi-p2vFmdFjHX8-unsplash.webp');
   background-position: 40% 40%;
 }
 
 #image-03 {
-  background-image: url('assets/premium_photo-1682597000277-6dbb1e6002c0 copy.png');
+  background-image: url('assets/daiga-ellaby-2_30shai0Cw-unsplash.webp');
   background-position: 40% 40%;
 }
 
@@ -578,6 +578,12 @@ section {
   border: none;
   cursor: pointer;
   text-align: left;
+}
+
+.service-description {
+  font-size: 24px;
+  line-height: 1.3;
+  padding-bottom: 16px;
 }
 
 .index {
